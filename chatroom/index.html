@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quietude's chat</title>
+  </head>
+  <body translate="yes">
+    <script src="firebase.js"></script>
+    <script src="config.js"></script>
+
+    <div class="topbar">
+      <div class="changingtext" id="sequence">Made by Phillip</div>
+      <input id="name" placeholder="Name" />
+      <input id="msg" placeholder="Message" />
+      <button onclick="selectText()" class="btn green" id="send">
+        Send message
+      </button>
+    </div>
+    <script src="changing-text.js"></script>
+    <div id="msgDisplay" class="display"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="rendered.js"></script>
+    <script src="selectText.js"></script>
+  </body>
+</html>
